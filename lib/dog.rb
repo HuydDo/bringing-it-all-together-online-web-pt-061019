@@ -47,7 +47,7 @@ class Dog
 
   def self.new_from_db(name:, breed:)
     dog = Dog.new(name, breed)
-    # song.save
+    song.save
     dog
   end
 
